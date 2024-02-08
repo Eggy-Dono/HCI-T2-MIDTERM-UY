@@ -1,0 +1,103 @@
+/* Media queries for mobile devices */
+@media only screen and (max-width: 600px) {
+    /* Adjustments for the navigation bar */
+    .logo {
+        font-size: 1.2rem; /* Decrease logo size */
+    }
+
+    .nav-link {
+        flex-direction: column; /* Stack nav links vertically */
+        gap: 0.5rem; /* Add some space between nav links */
+    }
+
+    .nav-link li {
+        text-align: center; /* Center-align nav links */
+        margin: 0.5rem 0; /* Add margin to separate nav links */
+    }
+
+    /* Adjustments for sections */
+    section {
+        padding: 2rem 1rem; /* Add padding to sections */
+    }
+
+    .title {
+        font-size: 2rem; /* Decrease title font size */
+        margin-bottom: 1rem; /* Add margin below titles */
+    }
+
+    .section_text_p1 {
+        font-size: 1.2rem; /* Decrease section text font size */
+        margin-bottom: 1rem; /* Add margin below section text */
+    }
+
+    /* Adjustments for profile section */
+    #profile {
+        flex-direction: column; /* Stack profile items vertically */
+        align-items: center; /* Center-align profile items */
+        gap: 1rem; /* Add some space between profile items */
+    }
+
+    .sec__mepic {
+        width: 150px; /* Decrease profile picture width */
+        height: 150px; /* Decrease profile picture height */
+        border-radius: 50%; /* Make the profile picture round */
+    }
+
+    /* Adjustments for about section */
+    .about-details-container {
+        gap: 1rem; /* Add some space between about details */
+        text-align: center; /* Center-align about details */
+    }
+
+    .about-pic {
+        width: 100%; /* Make about picture full width */
+        height: auto; /* Allow about picture height to adjust */
+        border-radius: 0.5rem; /* Add some border radius */
+    }
+
+    /* Adjustments for projects section */
+    .experience-details-container {
+        gap: 1rem; /* Add some space between projects */
+    }
+
+    .details-container {
+        width: 100%; /* Make project details container full width */
+    }
+
+    .project-img {
+        width: 100%; /* Make project images full width */
+        height: auto; /* Allow project image height to adjust */
+        border-radius: 0.5rem; /* Add some border radius */
+    }
+
+    .project-title {
+        font-size: 1.5rem; /* Decrease project title font size */
+        margin-bottom: 0.5rem; /* Add margin below project title */
+    }
+
+    /* Adjustments for contact section */
+    .contact-info-upper-container {
+        gap: 1rem; /* Add some space between contact info */
+        text-align: center; /* Center-align contact info */
+    }
+
+    .icon {
+        height: 2rem; /* Decrease icon size */
+    }
+
+    .contact-info-container p {
+        font-size: 1rem; /* Decrease contact info font size */
+        margin-bottom: 0.5rem; /* Add margin below contact info */
+    }
+
+    /* Adjustments for footer */
+    footer {
+        text-align: center; /* Center-align footer content */
+        padding: 1rem 0; /* Add padding to footer */
+    }
+
+    .nav-link {
+        flex-direction: row; /* Revert nav links to horizontal layout */
+        justify-content: center; /* Center-align nav links */
+    }
+}

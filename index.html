@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio Website!</title>
+    <!--Links-->
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="mediaq.css">
+</head>
+<body>
+    <nav id="desk-nav">
+        <div class="logo"> Alyssa Uy</div>
+        <div>
+            <ul class="nav-link">
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">My Projects</a></li>
+                <li><a href="#contacts">Contact Me</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="threedot-nav">
+        <div class="logo"> Alyssa Uy</div>
+        <div class="threedot-menu">
+            <div class="threedot-icon" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="menu-link">
+                <li><a href="#about" onclick="toggleMenu()">About Me</a></li>
+                <li><a href="#myprojs" onclick="toggleMenu()">My Projects</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact Me</a></li>
+        </div>
+        </div>
+    </nav>
+    <section id="profile">
+        <div class="sec__mypic">
+            <img src="./assets/mepic.png" alt="me pic">
+        </div>
+        <div class="sec__text">
+            <p class="sec__text__p1">Hey, there!</p>
+            <h1 class="title">I'm Alyssa Uy!</h1><br>
+            <p class="sec__text__p2">Web and Mobile Application Student from FEUA.</p><br>
+            <div class="butt-container">
+                <button class="butt butt-color-2" onclick="window.open('./assets/aly-resume.pdf')"> My Resume</button>
+                <button class="butt butt-color-1" onclick="location.href='#contact'"> My Contacts
+                </button>
+            </div><br>
+        </div>
+    </section>
+    <section id="about">
+        <h1 class="title">About Me</h1>
+        <p class="section-container">Get to Know More about me!</p><br>
+        <div class="section-container">
+            <div class="section_pic-container">
+                <img src="./assets/dorae.png" alt="profilepic" class="about-pic">
+            </div>
+            <div class="about-details-container">
+                <div class="about-container">
+                    <div class="details-container">
+                        <img src="./assets/gcap.png" alt="edu" class="icon">
+                        <h3>Educational Attainment</h3>
+                        <p>First Year of College <br> 2nd Term <br> BSIT-WMA </p>
+                    </div><br>
+                    <div class="details_container">
+                        <img src="./assets/bcase.png" alt="" class="icon">
+                        <h3>Profession Experience</h3>
+                        <p>Beginner Level Web Development <br> Beginner Level C++ Programming <br> Beginner Level Python Programming</p>
+                    </div>
+                </div><br><br>
+                <div class="text_container" style="text-align: center;">
+                    <p>I am Alyssa Faith S. Uy, based in Las pInas City. I currently study in FEU Alabang as an IT-WMA student, in pursuit of becoming a full-stack developer afterwards. My hobbies at the moment fall between literary and visual arts, a mix of performance here and there, and I value peace a lot as well! My core skills are Writing, Programming and Project Management, whereas my soft skills are Leadership, Multi-tasking, and Diligence.</p>
+                </div>
+            </div>
+        </div>
+                    </div>
+                </div>
+            </div>
+        </div><br>
+    </section><br><br>
+    <section id="projects">
+        <h1 class="title">My Projects</h1>
+        <p class="section_text_p1">Browse my Recent Web-Dev Projects!</p><br><br><br>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="./assets/p1.png" alt="proj1" class="project-img">
+                    </div><br>
+                    <h2 class="experience-sub-title project-title">1st Project</h2>
+                    <p>FEU Alabang Introductory Website with Theme of choice.</p><br>
+                    <div class="butt-container">
+                        <button class="butt butt-color-2 project-butt" onclick="location.href='https://github.com'">
+                        View More
+                        </button>
+                        <button class="butt butt-color-2 project-butt" onclick="location.href='https://github.com'">
+                            Live Demo
+                            </button>
+                    </div>
+                </div>
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="./assets/p2.png" alt="proj1" class="project-img">
+                    </div><br>
+                    <h2 class="experience-sub-title project-title">2nd Project</h2>
+                    <p>Scented Candle Online Shop Website</p><br>
+                    <div class="butt-container">
+                        <button class="butt butt-color-2 project-butt" onclick="location.href='https://github.com'">
+                        View More
+                        </button>
+                        <button class="butt butt-color-2 project-butt" onclick="location.href='https://github.com'">
+                            Live Demo
+                            </button>
+                    </div>
+                </div>
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="./assets/p3.png" alt="proj1" class="project-img">
+                    </div>
+                    <h2 class="experience-sub-title project-title">3rd Project</h2>
+                    <p>Selfhelp website draft from earlier Introductory project</p><br>
+                    <div class="butt-container">
+                        <button class="butt butt-color-2 project-butt" onclick="location.href='https://github.com'">
+                        View More
+                        </button>
+                        <button class="butt butt-color-2 project-butt" onclick="location.href='https://github.com'">
+                            Live Demo
+                            </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contacts"></section>
+    <h1 class="title">Contact Me</h1>
+    <p class="section_text_p1">Get a hold of me through these!</p>
+    <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+            <img src="./assets/fb.png" alt="fb icon" class="icon fb-icon">
+            <p><a href="https://facebook.com">@Alyssa Uy</a></p>
+        </div>
+        <div class="contact-info-container">
+            <img src="./assets/ig.png" alt="ig icon" class="icon ig-icon">
+            <p><a href="https://instagram.com">@alyssa_uy</a></p>
+        </div>
+        <div class="contact-info-container">
+            <img src="./assets/gm.png" alt="email icon" class="icon contact-icon">
+            <p><a href="mailto:exampleemail@gmail.com">alyssauy@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+            <img src="./assets/phone.png" alt="phone icon" class="icon phone-icon">
+            <p><a href="https://instagram.com">09-160-556-319</a></p>
+        </div>
+    </div>
+    <footer>
+        <nav>
+            <div class="nav-links-container">
+                <ul class="nav-link">
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#projects">My Projects</a></li>
+                    <li><a href="#contacts">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+        <p>Copyright &#169; 2024 Alyssa Uy. All rights Reserved.</p>
+    </footer>
+    <script src="index.js"></script>
+</body>
+</html>
